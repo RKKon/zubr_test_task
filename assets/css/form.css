@@ -1,0 +1,101 @@
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #e5e5e5;
+  padding: 30px 30px 25px 30px;
+  border-radius: 45px;
+
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #444645;
+}
+
+.form_h3 {
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 65px;
+  margin-bottom: 30px;
+}
+
+.contact_form_input {
+  margin: 5px 0 15px 0;
+  padding: 8px 5px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.contact_form_btn {
+  width: 260px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+.contact_form_btn:hover {
+  background-color: black
+}
+
+.error_message {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.thanksModal {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  position: fixed;
+  top: 30%;
+  left: 43.5%;
+  transform: translate(-50%, -50%);
+  background-color: #c2acac;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  z-index: 10;
+}
+
+.flex_form {
+  display: flex;
+}
+
+.flex_form div img {
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.flex_form div {
+  flex: 1;
+
+}
+
+.flex_form_column {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+.form_pice {
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: 500;
+  align-self: center;
+}

@@ -1,0 +1,13 @@
+{
+  "customers": [{
+      "email": "RKFrostmorn@gmail.com",
+      "name": "ssssAndrei Subach",
+      "tel": "+375299994147"
+    },
+    {
+      "tel": "+52 222 222 2222",
+      "name": "tested пользователь",
+      "subid": "123456789"
+    }
+  ]
+}

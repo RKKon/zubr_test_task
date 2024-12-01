@@ -16,7 +16,9 @@
 
 6. Форма добавлена перед комментариями. form in index.html on 196 line. js code in js/script.js . css in assets/css/form.css. added db.json для добавления пользователей с номером телефона и subid. 
 
-7. В <header> само меню. стили в assets/css/header.css (вставлено внутри style.css)
+Обратите внимание что отправка формы не будет работать если она не на хостинге или вы включили локальный сервер - например Open Server Panel для windows или MAMP для ios. Либо любой другой. 
+
+7. В header само меню. стили в assets/css/header.css (вставлено внутри style.css)
 
 
 ## Некоторые моменты по заданию
